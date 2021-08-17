@@ -13,13 +13,13 @@ Before running any models, each independent variable was checked to ensure there
 ## Results 
 Out of the Decision Tree and Random Forest Classifier, the latter had the best metrics. I was able to get this model up to 85% accuracy in the test set (94% for train set). Below is the classifiaction report of the final model: 
 
-![Screen Shot 2021-08-16 at 5 08 05 PM](https://user-images.githubusercontent.com/81720110/129644130-4e3c2817-495d-462a-9861-2a056b58502a.png)
+![Screen Shot 2021-08-17 at 2 49 57 PM](https://user-images.githubusercontent.com/81720110/129805372-ad3c9fcc-dac2-4ed7-9eb0-47affc0bda27.png)
 
-![Screen Shot 2021-08-16 at 5 08 24 PM](https://user-images.githubusercontent.com/81720110/129644142-f94f6d91-7e0c-49dc-99cb-98ca93f3ca05.png)
-![Screen Shot 2021-08-16 at 5 08 42 PM](https://user-images.githubusercontent.com/81720110/129644147-d5100644-8083-4872-8cc9-cf5763565898.png)
+![Screen Shot 2021-08-17 at 2 50 13 PM](https://user-images.githubusercontent.com/81720110/129805399-f94fe565-b618-4d63-9080-8696e80961aa.png)
+![Screen Shot 2021-08-17 at 2 50 25 PM](https://user-images.githubusercontent.com/81720110/129805408-b6f3900e-4eb8-4352-a701-83d6fd9eca20.png)
 
 ## Conclusions
-This model is able to predict water well functionality with 85% accuracy. The most important features affecting this classification are: quanity, payment, waterpoint type and extraction type
+This model is able to predict water well functionality with 84% accuracy. The most important features affecting this classification are: quanity, payment, waterpoint type and extraction type
 
 ## Next Steps
 Future work would be to futher increase accuracy score, find a better way to deal with class imbalance in the 'functional needs repair' class, and using alternate methods to deal with missing values in dataset.  
