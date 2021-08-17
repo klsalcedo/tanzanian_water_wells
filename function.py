@@ -23,8 +23,3 @@ def class_model(model, X_train, X_test, y_train, y_test):
     
     return model
 
-#     wont work for all models - use if statement or delete
-#     false_positive_rate, true_positive_rate, thresholds = roc_curve(y_test, y_pred)
-#     roc_auc = auc(false_positve_rate, true_positive_rate)
-#     print('AUC:', round(roc_auc,2))
-    
