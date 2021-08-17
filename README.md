@@ -19,7 +19,7 @@ Out of the Decision Tree and Random Forest Classifier, the latter had the best m
 ![Screen Shot 2021-08-17 at 2 50 25 PM](https://user-images.githubusercontent.com/81720110/129805408-b6f3900e-4eb8-4352-a701-83d6fd9eca20.png)
 
 ## Conclusions
-This model is able to predict water well functionality with 84% accuracy. The most important features affecting this classification are: quanity, payment, waterpoint type and extraction type
+This model is able to predict water well functionality with 84% accuracy. The most important features affecting this classification are: quanity, payment, waterpoint type and extraction type.
 
 ## Next Steps
 Future work would be to futher increase accuracy score, find a better way to deal with class imbalance in the 'functional needs repair' class, and using alternate methods to deal with missing values in dataset.  
