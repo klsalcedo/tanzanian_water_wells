@@ -2,7 +2,7 @@
 Author: Katarina Salcedo
 
 ## Motivation
-To aid The Water Project in their goal of providing clean water to regions of Africa. I will create a classification model that is accurately able to predict whether a water well is functional or nonfunctional. The Water Project can use this model to decide where to build new wells, if a well needs maintenance and also help them prioritize regions that are in greater need of a water source. 
+To aid The Water Project in their goal of providing clean water to regions of Africa, I will create a classification model that is accurately able to predict whether a water well is functional or nonfunctional. The Water Project can use this model to decide where to build new wells, if a well needs maintenance and also help them prioritize regions that are in greater need of a water source. 
 
 ## Data
 The data is sourced from Taarifa and the Tanzanian Ministry of Water. It contains around 59,000 rows and 40 independent variables describing the well's geographical location, funder, management, surrounding population, quantity and quality of water, extraction type, water source, if payment is required, etc. The target variable describes the status of the well as either 'functional', 'non functional' or 'functional needs repair'. 
